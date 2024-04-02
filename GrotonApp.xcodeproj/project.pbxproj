@@ -7,107 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5092A54FD614EDBDB9799614 /* Pods_GrotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2686EB646A3A3968860496CD /* Pods_GrotonApp.framework */; };
-		7C39AB522BBB72D9008B5925 /* GrotonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39AB512BBB72D9008B5925 /* GrotonAppApp.swift */; };
-		7C39AB542BBB72D9008B5925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39AB532BBB72D9008B5925 /* ContentView.swift */; };
-		7C39AB562BBB72D9008B5925 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39AB552BBB72D9008B5925 /* Item.swift */; };
-		7C39AB582BBB72DA008B5925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C39AB572BBB72DA008B5925 /* Assets.xcassets */; };
-		7C39AB5C2BBB72DA008B5925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C39AB5B2BBB72DA008B5925 /* Preview Assets.xcassets */; };
+		7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */; };
+		7CE3EDD82BBC3C83005F637E /* SwiftData-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */; };
+		7CE3EDDA2BBC3C84005F637E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD92BBC3C84005F637E /* Assets.xcassets */; };
+		7CE3EDDD2BBC3C84005F637E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */; };
+		7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE42BBC3D20005F637E /* TokenView.swift */; };
+		7CE3EDED2BBC3D20005F637E /* SwiftData-App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE52BBC3D20005F637E /* SwiftData-App.swift */; };
+		7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE72BBC3D20005F637E /* OAuth2.swift */; };
+		7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE82BBC3D20005F637E /* WebView.swift */; };
+		7CE3EDF22BBC3D20005F637E /* SwiftData-ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */; };
+		7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDF52BBC3DD2005F637E /* ContentView.swift */; };
+		F4D6DA94D8A6916511922BB7 /* Pods_GrotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E837E9B611F71A296156F /* Pods_GrotonApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02EACA560283407DB7F18244 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.release.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
-		2686EB646A3A3968860496CD /* Pods_GrotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C39AB4E2BBB72D9008B5925 /* GrotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C39AB512BBB72D9008B5925 /* GrotonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrotonAppApp.swift; sourceTree = "<group>"; };
-		7C39AB532BBB72D9008B5925 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7C39AB552BBB72D9008B5925 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		7C39AB572BBB72DA008B5925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C39AB592BBB72DA008B5925 /* GrotonApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrotonApp.entitlements; sourceTree = "<group>"; };
-		7C39AB5B2BBB72DA008B5925 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA76592A01DA4B21E42B276D /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		362E837E9B611F71A296156F /* Pods_GrotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.release.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
+		7CE3EDD02BBC3C83005F637E /* GrotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrotonAppApp.swift; sourceTree = "<group>"; };
+		7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftData-Item.swift"; sourceTree = "<group>"; };
+		7CE3EDD92BBC3C84005F637E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CE3EDE42BBC3D20005F637E /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
+		7CE3EDE52BBC3D20005F637E /* SwiftData-App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftData-App.swift"; sourceTree = "<group>"; };
+		7CE3EDE72BBC3D20005F637E /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
+		7CE3EDE82BBC3D20005F637E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftData-ContentView.swift"; sourceTree = "<group>"; };
+		7CE3EDF52BBC3DD2005F637E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C39AB4B2BBB72D9008B5925 /* Frameworks */ = {
+		7CE3EDCD2BBC3C83005F637E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5092A54FD614EDBDB9799614 /* Pods_GrotonApp.framework in Frameworks */,
+				F4D6DA94D8A6916511922BB7 /* Pods_GrotonApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		586C837C2335C011970B1CC3 /* Frameworks */ = {
+		1309668CF64643ECDB0B1195 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2686EB646A3A3968860496CD /* Pods_GrotonApp.framework */,
+				E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */,
+				49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */,
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		7C39AB452BBB72D9008B5925 = {
+		7CE3EDC72BBC3C83005F637E = {
 			isa = PBXGroup;
 			children = (
-				7C39AB502BBB72D9008B5925 /* GrotonApp */,
-				7C39AB4F2BBB72D9008B5925 /* Products */,
-				A753A308C0EA088FF8599017 /* Pods */,
-				586C837C2335C011970B1CC3 /* Frameworks */,
+				7CE3EDD22BBC3C83005F637E /* GrotonApp */,
+				7CE3EDD12BBC3C83005F637E /* Products */,
+				1309668CF64643ECDB0B1195 /* Pods */,
+				8B0018EF980D25387291D70A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7C39AB4F2BBB72D9008B5925 /* Products */ = {
+		7CE3EDD12BBC3C83005F637E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C39AB4E2BBB72D9008B5925 /* GrotonApp.app */,
+				7CE3EDD02BBC3C83005F637E /* GrotonApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C39AB502BBB72D9008B5925 /* GrotonApp */ = {
+		7CE3EDD22BBC3C83005F637E /* GrotonApp */ = {
 			isa = PBXGroup;
 			children = (
-				7C39AB512BBB72D9008B5925 /* GrotonAppApp.swift */,
-				7C39AB532BBB72D9008B5925 /* ContentView.swift */,
-				7C39AB552BBB72D9008B5925 /* Item.swift */,
-				7C39AB572BBB72DA008B5925 /* Assets.xcassets */,
-				7C39AB592BBB72DA008B5925 /* GrotonApp.entitlements */,
-				7C39AB5A2BBB72DA008B5925 /* Preview Content */,
+				7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */,
+				7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */,
+				7CE3EDF52BBC3DD2005F637E /* ContentView.swift */,
+				7CE3EDE72BBC3D20005F637E /* OAuth2.swift */,
+				7CE3EDE52BBC3D20005F637E /* SwiftData-App.swift */,
+				7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */,
+				7CE3EDE42BBC3D20005F637E /* TokenView.swift */,
+				7CE3EDE82BBC3D20005F637E /* WebView.swift */,
+				7CE3EDD92BBC3C84005F637E /* Assets.xcassets */,
+				7CE3EDDB2BBC3C84005F637E /* Preview Content */,
 			);
 			path = GrotonApp;
 			sourceTree = "<group>";
 		};
-		7C39AB5A2BBB72DA008B5925 /* Preview Content */ = {
+		7CE3EDDB2BBC3C84005F637E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7C39AB5B2BBB72DA008B5925 /* Preview Assets.xcassets */,
+				7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A753A308C0EA088FF8599017 /* Pods */ = {
+		8B0018EF980D25387291D70A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA76592A01DA4B21E42B276D /* Pods-GrotonApp.debug.xcconfig */,
-				02EACA560283407DB7F18244 /* Pods-GrotonApp.release.xcconfig */,
+				362E837E9B611F71A296156F /* Pods_GrotonApp.framework */,
 			);
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C39AB4D2BBB72D9008B5925 /* GrotonApp */ = {
+		7CE3EDCF2BBC3C83005F637E /* GrotonApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C39AB5F2BBB72DA008B5925 /* Build configuration list for PBXNativeTarget "GrotonApp" */;
+			buildConfigurationList = 7CE3EDE02BBC3C84005F637E /* Build configuration list for PBXNativeTarget "GrotonApp" */;
 			buildPhases = (
-				D86D9A5CF50CF0CFAC394780 /* [CP] Check Pods Manifest.lock */,
-				7C39AB4A2BBB72D9008B5925 /* Sources */,
-				7C39AB4B2BBB72D9008B5925 /* Frameworks */,
-				7C39AB4C2BBB72D9008B5925 /* Resources */,
-				1D6F8B465CFA513A8D27830E /* [CP] Embed Pods Frameworks */,
+				32EBDE64DD8545D4892EAAD1 /* [CP] Check Pods Manifest.lock */,
+				7CE3EDCC2BBC3C83005F637E /* Sources */,
+				7CE3EDCD2BBC3C83005F637E /* Frameworks */,
+				7CE3EDCE2BBC3C83005F637E /* Resources */,
+				C336C252B6AFB165A11E3BBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,25 +128,25 @@
 			);
 			name = GrotonApp;
 			productName = GrotonApp;
-			productReference = 7C39AB4E2BBB72D9008B5925 /* GrotonApp.app */;
+			productReference = 7CE3EDD02BBC3C83005F637E /* GrotonApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7C39AB462BBB72D9008B5925 /* Project object */ = {
+		7CE3EDC82BBC3C83005F637E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					7C39AB4D2BBB72D9008B5925 = {
+					7CE3EDCF2BBC3C83005F637E = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 7C39AB492BBB72D9008B5925 /* Build configuration list for PBXProject "GrotonApp" */;
+			buildConfigurationList = 7CE3EDCB2BBC3C83005F637E /* Build configuration list for PBXProject "GrotonApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,47 +154,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 7C39AB452BBB72D9008B5925;
-			productRefGroup = 7C39AB4F2BBB72D9008B5925 /* Products */;
+			mainGroup = 7CE3EDC72BBC3C83005F637E;
+			productRefGroup = 7CE3EDD12BBC3C83005F637E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C39AB4D2BBB72D9008B5925 /* GrotonApp */,
+				7CE3EDCF2BBC3C83005F637E /* GrotonApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C39AB4C2BBB72D9008B5925 /* Resources */ = {
+		7CE3EDCE2BBC3C83005F637E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C39AB5C2BBB72DA008B5925 /* Preview Assets.xcassets in Resources */,
-				7C39AB582BBB72DA008B5925 /* Assets.xcassets in Resources */,
+				7CE3EDDD2BBC3C84005F637E /* Preview Assets.xcassets in Resources */,
+				7CE3EDDA2BBC3C84005F637E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D6F8B465CFA513A8D27830E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D86D9A5CF50CF0CFAC394780 /* [CP] Check Pods Manifest.lock */ = {
+		32EBDE64DD8545D4892EAAD1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,23 +199,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C336C252B6AFB165A11E3BBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C39AB4A2BBB72D9008B5925 /* Sources */ = {
+		7CE3EDCC2BBC3C83005F637E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C39AB542BBB72D9008B5925 /* ContentView.swift in Sources */,
-				7C39AB562BBB72D9008B5925 /* Item.swift in Sources */,
-				7C39AB522BBB72D9008B5925 /* GrotonAppApp.swift in Sources */,
+				7CE3EDD82BBC3C83005F637E /* SwiftData-Item.swift in Sources */,
+				7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */,
+				7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */,
+				7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */,
+				7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */,
+				7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */,
+				7CE3EDF22BBC3D20005F637E /* SwiftData-ContentView.swift in Sources */,
+				7CE3EDED2BBC3D20005F637E /* SwiftData-App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7C39AB5D2BBB72DA008B5925 /* Debug */ = {
+		7CE3EDDE2BBC3C84005F637E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +274,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -271,16 +289,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		7C39AB5E2BBB72DA008B5925 /* Release */ = {
+		7CE3EDDF2BBC3C84005F637E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,7 +337,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -326,81 +346,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7C39AB602BBB72DA008B5925 /* Debug */ = {
+		7CE3EDE12BBC3C84005F637E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA76592A01DA4B21E42B276D /* Pods-GrotonApp.debug.xcconfig */;
+			baseConfigurationReference = E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GrotonApp/GrotonApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GrotonApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = groton.org.GrotonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.groton.GrotonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7C39AB612BBB72DA008B5925 /* Release */ = {
+		7CE3EDE22BBC3C84005F637E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02EACA560283407DB7F18244 /* Pods-GrotonApp.release.xcconfig */;
+			baseConfigurationReference = 49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GrotonApp/GrotonApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GrotonApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = groton.org.GrotonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = org.groton.GrotonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,25 +417,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C39AB492BBB72D9008B5925 /* Build configuration list for PBXProject "GrotonApp" */ = {
+		7CE3EDCB2BBC3C83005F637E /* Build configuration list for PBXProject "GrotonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C39AB5D2BBB72DA008B5925 /* Debug */,
-				7C39AB5E2BBB72DA008B5925 /* Release */,
+				7CE3EDDE2BBC3C84005F637E /* Debug */,
+				7CE3EDDF2BBC3C84005F637E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C39AB5F2BBB72DA008B5925 /* Build configuration list for PBXNativeTarget "GrotonApp" */ = {
+		7CE3EDE02BBC3C84005F637E /* Build configuration list for PBXNativeTarget "GrotonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C39AB602BBB72DA008B5925 /* Debug */,
-				7C39AB612BBB72DA008B5925 /* Release */,
+				7CE3EDE12BBC3C84005F637E /* Debug */,
+				7CE3EDE22BBC3C84005F637E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7C39AB462BBB72D9008B5925 /* Project object */;
+	rootObject = 7CE3EDC82BBC3C83005F637E /* Project object */;
 }
