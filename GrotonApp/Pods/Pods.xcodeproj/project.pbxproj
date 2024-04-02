@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8FAC7649FDAA90D23F7E128B59F67D /* GrotonOrgGrotonAppGrotonAppKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = E70148154CFAC05AE17EA324368472E1 /* GrotonOrgGrotonAppGrotonAppKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5FEE959486A59997B68B6FF714F9C7DD /* GrotonOrgGrotonAppGrotonAppKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AFE6485A16761DAFC443F27934337C /* GrotonOrgGrotonAppGrotonAppKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A610C1B1F0FD65F4304CA93ABCBE3F8 /* Keys-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BA95BE4FE356F57ADF49826B10EC8B /* Keys-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB62F9147152192E300F667ABC145DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7726A05D2FA3A9B0B53694E9DE779104 /* Pods-GrotonApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 259EE0BD6B3E0789D18BB1940439C2C4 /* Pods-GrotonApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DAC356B38F4516D13430E288630AB27 /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 34635FBB817143AAB9D6C9CB54D5EB0A /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901DAA9EEAF07CCCE41CBA7A93B5F89B /* GrotonOrgGrotonAppGrotonAppKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AFE6485A16761DAFC443F27934337C /* GrotonOrgGrotonAppGrotonAppKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9086B6DE0A5C9F6C5A2D6A564720227F /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2C9610DD5A771A9BAE7CD14006627F /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D36009FF7CA5514BF12817A3FC4CC15 /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2C9610DD5A771A9BAE7CD14006627F /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA7AD2415567F3F8705EC6046DBCE76F /* Keys-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC5564212B18A83DDF62CEFD439C548 /* Keys-library-dummy.m */; };
+		BCB32DD040B3CC9090F53AB84A0E10CC /* Pods-GrotonApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DD2CD21AAB123333112591283606E /* Pods-GrotonApp-dummy.m */; };
+		C8935554DBB676DC44E6DFA14F139927 /* GrotonOrgGrotonAppGrotonAppKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = E70148154CFAC05AE17EA324368472E1 /* GrotonOrgGrotonAppGrotonAppKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB3DC0DC758B817897BF2787571B5AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CEBFAF30D24678E1157A4F45D73F1436 /* Keys-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8325E3481E4A6D81837B40327306679A /* Keys-framework-dummy.m */; };
+		D762ABF588076F43DFA11FC6C44A2647 /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 34635FBB817143AAB9D6C9CB54D5EB0A /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348CC47A88F77005068C0D9AA834D360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 038B9A85B25D53B15C36692368AA8E7E;
+			remoteInfo = "Keys-framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BA95BE4FE356F57ADF49826B10EC8B /* Keys-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-framework-umbrella.h"; sourceTree = "<group>"; };
+		05D156D5D710508D4B2D8C585851C2E1 /* Keys-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Keys-framework.modulemap"; sourceTree = "<group>"; };
+		0B9DD2CD21AAB123333112591283606E /* Pods-GrotonApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrotonApp-dummy.m"; sourceTree = "<group>"; };
+		0BC5564212B18A83DDF62CEFD439C548 /* Keys-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Keys-library-dummy.m"; path = "../Keys-library/Keys-library-dummy.m"; sourceTree = "<group>"; };
+		1BC542512190AF2B56CF1EA0F6FA8059 /* Keys-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Keys-framework-Info.plist"; sourceTree = "<group>"; };
+		20AFE6485A16761DAFC443F27934337C /* GrotonOrgGrotonAppGrotonAppKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GrotonOrgGrotonAppGrotonAppKeys.h; sourceTree = "<group>"; };
+		256ADFC4B47E17CF552BC7C7F0920002 /* Keys-library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Keys-library.release.xcconfig"; path = "../Keys-library/Keys-library.release.xcconfig"; sourceTree = "<group>"; };
+		259EE0BD6B3E0789D18BB1940439C2C4 /* Pods-GrotonApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrotonApp-umbrella.h"; sourceTree = "<group>"; };
+		2CB583617AFFA20896D6E78244486E1B /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		34635FBB817143AAB9D6C9CB54D5EB0A /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h; sourceTree = "<group>"; };
+		35BCE9C7EA5DFB400F87595638B35806 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
+		3CFA99CB4A849D82B8E2D7060E7CB4F6 /* Keys.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Keys.podspec.json; sourceTree = "<group>"; };
+		3D3F2C1DF92E07044757723E08432C64 /* Pods-GrotonApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrotonApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		44DD2288862DA5C766B1537A9EB2C2CB /* Keys-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-framework-prefix.pch"; sourceTree = "<group>"; };
+		4904578F2C581F608596B5FEF6DD6E43 /* Keys-framework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Keys-framework.debug.xcconfig"; sourceTree = "<group>"; };
+		64D53E13076A3C89ACD6B37ED708B21E /* Pods-GrotonApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrotonApp.modulemap"; sourceTree = "<group>"; };
+		6FE2DF715C902E992CAAE471AFC3E214 /* Pods-GrotonApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GrotonApp"; path = Pods_GrotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8325E3481E4A6D81837B40327306679A /* Keys-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keys-framework-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEF4C2E544D114C9CD771BE17EE94E22 /* Pods-GrotonApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrotonApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B62CED338872EF536910A466267352B5 /* Keys-framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Keys-framework"; path = Keys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AC202FBF0A478D26B7A8CAE47A85F8 /* Keys-library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Keys-library.debug.xcconfig"; path = "../Keys-library/Keys-library.debug.xcconfig"; sourceTree = "<group>"; };
+		BBAB22725B41787A8FD7D8E054EE4027 /* Keys-framework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Keys-framework.release.xcconfig"; sourceTree = "<group>"; };
+		C4D5A25987BC7BF357E1559FF706DA26 /* Keys-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Keys-library-prefix.pch"; path = "../Keys-library/Keys-library-prefix.pch"; sourceTree = "<group>"; };
+		D4B5FC1A8F44103C20C834E5CAAEC363 /* Keys-library */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Keys-library"; path = "libKeys-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AFB2A0B2B0D0E5904108597EDA2EB8 /* Pods-GrotonApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrotonApp-Info.plist"; sourceTree = "<group>"; };
+		E70148154CFAC05AE17EA324368472E1 /* GrotonOrgGrotonAppGrotonAppKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GrotonOrgGrotonAppGrotonAppKeys.m; sourceTree = "<group>"; };
+		FA9AA54AD688E37ED366FF1596D1C47C /* Pods-GrotonApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrotonApp-frameworks.sh"; sourceTree = "<group>"; };
+		FF2C9610DD5A771A9BAE7CD14006627F /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0959AAAA3F463B9591EACF1CC7D6F090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB62F9147152192E300F667ABC145DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187992F21CE95416A07BF6FED732546D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3DC0DC758B817897BF2787571B5AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA2A2EC7AC3C916C85FBB51738E592A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F259A79F9829850EB76CCEF60E297C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA99CB4A849D82B8E2D7060E7CB4F6 /* Keys.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		406907BF114BB025394366364A5F6BF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB506B6B08DD7FB95007AD2DD6F2089 /* Pods-GrotonApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66E3ADE6E14A781202B55B6043360DDF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7789DEC14DB5631857F6F35BA6FCE6C0 /* Keys */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7789DEC14DB5631857F6F35BA6FCE6C0 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				20AFE6485A16761DAFC443F27934337C /* GrotonOrgGrotonAppGrotonAppKeys.h */,
+				E70148154CFAC05AE17EA324368472E1 /* GrotonOrgGrotonAppGrotonAppKeys.m */,
+				34635FBB817143AAB9D6C9CB54D5EB0A /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h */,
+				FF2C9610DD5A771A9BAE7CD14006627F /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m */,
+				15F259A79F9829850EB76CCEF60E297C /* Pod */,
+				B97FFFD0FB8702643A9A56702CF12C01 /* Support Files */,
+			);
+			name = Keys;
+			path = CocoaPodsKeys;
+			sourceTree = "<group>";
+		};
+		B97FFFD0FB8702643A9A56702CF12C01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05D156D5D710508D4B2D8C585851C2E1 /* Keys-framework.modulemap */,
+				8325E3481E4A6D81837B40327306679A /* Keys-framework-dummy.m */,
+				1BC542512190AF2B56CF1EA0F6FA8059 /* Keys-framework-Info.plist */,
+				44DD2288862DA5C766B1537A9EB2C2CB /* Keys-framework-prefix.pch */,
+				03BA95BE4FE356F57ADF49826B10EC8B /* Keys-framework-umbrella.h */,
+				4904578F2C581F608596B5FEF6DD6E43 /* Keys-framework.debug.xcconfig */,
+				BBAB22725B41787A8FD7D8E054EE4027 /* Keys-framework.release.xcconfig */,
+				0BC5564212B18A83DDF62CEFD439C548 /* Keys-library-dummy.m */,
+				C4D5A25987BC7BF357E1559FF706DA26 /* Keys-library-prefix.pch */,
+				B6AC202FBF0A478D26B7A8CAE47A85F8 /* Keys-library.debug.xcconfig */,
+				256ADFC4B47E17CF552BC7C7F0920002 /* Keys-library.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Keys-framework";
+			sourceTree = "<group>";
+		};
+		C6E16B2413D277CA7B8F042E1C8F4F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62CED338872EF536910A466267352B5 /* Keys-framework */,
+				D4B5FC1A8F44103C20C834E5CAAEC363 /* Keys-library */,
+				6FE2DF715C902E992CAAE471AFC3E214 /* Pods-GrotonApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				66E3ADE6E14A781202B55B6043360DDF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C6E16B2413D277CA7B8F042E1C8F4F8C /* Products */,
+				406907BF114BB025394366364A5F6BF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB506B6B08DD7FB95007AD2DD6F2089 /* Pods-GrotonApp */ = {
+			isa = PBXGroup;
+			children = (
+				64D53E13076A3C89ACD6B37ED708B21E /* Pods-GrotonApp.modulemap */,
+				AEF4C2E544D114C9CD771BE17EE94E22 /* Pods-GrotonApp-acknowledgements.markdown */,
+				3D3F2C1DF92E07044757723E08432C64 /* Pods-GrotonApp-acknowledgements.plist */,
+				0B9DD2CD21AAB123333112591283606E /* Pods-GrotonApp-dummy.m */,
+				FA9AA54AD688E37ED366FF1596D1C47C /* Pods-GrotonApp-frameworks.sh */,
+				D6AFB2A0B2B0D0E5904108597EDA2EB8 /* Pods-GrotonApp-Info.plist */,
+				259EE0BD6B3E0789D18BB1940439C2C4 /* Pods-GrotonApp-umbrella.h */,
+				2CB583617AFFA20896D6E78244486E1B /* Pods-GrotonApp.debug.xcconfig */,
+				35BCE9C7EA5DFB400F87595638B35806 /* Pods-GrotonApp.release.xcconfig */,
+			);
+			name = "Pods-GrotonApp";
+			path = "Target Support Files/Pods-GrotonApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C1EC86844F08CB403131CD798BFF034 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7726A05D2FA3A9B0B53694E9DE779104 /* Pods-GrotonApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB686621D59AE1BC1DB4F294DB98ADDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901DAA9EEAF07CCCE41CBA7A93B5F89B /* GrotonOrgGrotonAppGrotonAppKeys.h in Headers */,
+				6A610C1B1F0FD65F4304CA93ABCBE3F8 /* Keys-framework-umbrella.h in Headers */,
+				7DAC356B38F4516D13430E288630AB27 /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA65AF5358F34C55FD82B236A0F5BF09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEE959486A59997B68B6FF714F9C7DD /* GrotonOrgGrotonAppGrotonAppKeys.h in Headers */,
+				D762ABF588076F43DFA11FC6C44A2647 /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		038B9A85B25D53B15C36692368AA8E7E /* Keys-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD7695E0DFF0756F6497A65A296F2B3 /* Build configuration list for PBXNativeTarget "Keys-framework" */;
+			buildPhases = (
+				CB686621D59AE1BC1DB4F294DB98ADDD /* Headers */,
+				94575906020952288E78ACCEFE383FC3 /* Sources */,
+				187992F21CE95416A07BF6FED732546D /* Frameworks */,
+				9274C3EBF2959110DE808789A9425001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keys-framework";
+			productName = Keys;
+			productReference = B62CED338872EF536910A466267352B5 /* Keys-framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEC67FC31E46304636D8B05EEFE60CFE /* Pods-GrotonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A128BDC70D73FA935EF5C35F8CB71F /* Build configuration list for PBXNativeTarget "Pods-GrotonApp" */;
+			buildPhases = (
+				8C1EC86844F08CB403131CD798BFF034 /* Headers */,
+				67B63A21E0292C876FF2E1D9ACCAD699 /* Sources */,
+				0959AAAA3F463B9591EACF1CC7D6F090 /* Frameworks */,
+				17730DD1F7A77AEADE0B471E33E55072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F222EBB512831E867C5933E8EE6D1BE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GrotonApp";
+			productName = Pods_GrotonApp;
+			productReference = 6FE2DF715C902E992CAAE471AFC3E214 /* Pods-GrotonApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBDE307EEE6EFAED12F501BC7E7652AA /* Keys-library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773930E56DE418D5F3BBC155B6B44771 /* Build configuration list for PBXNativeTarget "Keys-library" */;
+			buildPhases = (
+				DA65AF5358F34C55FD82B236A0F5BF09 /* Headers */,
+				C8B8F3343DE7D2E4173D3528498B4FF6 /* Sources */,
+				9DA2A2EC7AC3C916C85FBB51738E592A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keys-library";
+			productName = "Keys-library";
+			productReference = D4B5FC1A8F44103C20C834E5CAAEC363 /* Keys-library */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C6E16B2413D277CA7B8F042E1C8F4F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038B9A85B25D53B15C36692368AA8E7E /* Keys-framework */,
+				FBDE307EEE6EFAED12F501BC7E7652AA /* Keys-library */,
+				BEC67FC31E46304636D8B05EEFE60CFE /* Pods-GrotonApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17730DD1F7A77AEADE0B471E33E55072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9274C3EBF2959110DE808789A9425001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B63A21E0292C876FF2E1D9ACCAD699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB32DD040B3CC9090F53AB84A0E10CC /* Pods-GrotonApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94575906020952288E78ACCEFE383FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8FAC7649FDAA90D23F7E128B59F67D /* GrotonOrgGrotonAppGrotonAppKeys.m in Sources */,
+				CEBFAF30D24678E1157A4F45D73F1436 /* Keys-framework-dummy.m in Sources */,
+				9086B6DE0A5C9F6C5A2D6A564720227F /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B8F3343DE7D2E4173D3528498B4FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8935554DBB676DC44E6DFA14F139927 /* GrotonOrgGrotonAppGrotonAppKeys.m in Sources */,
+				AA7AD2415567F3F8705EC6046DBCE76F /* Keys-library-dummy.m in Sources */,
+				9D36009FF7CA5514BF12817A3FC4CC15 /* OrgGrotonSwiftExamplesOAuth2AuthorizationKeys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F222EBB512831E867C5933E8EE6D1BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Keys-framework";
+			target = 038B9A85B25D53B15C36692368AA8E7E /* Keys-framework */;
+			targetProxy = 348CC47A88F77005068C0D9AA834D360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22C5A4F004FC5F7B16CE3EC887964452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256ADFC4B47E17CF552BC7C7F0920002 /* Keys-library.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Keys-library/Keys-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Keys;
+				PRODUCT_NAME = "Keys-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B145622102FDB0FFCCC8AAEA68CF17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB583617AFFA20896D6E78244486E1B /* Pods-GrotonApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D3B6798DCE85BCD4D1ACF94DAD2D0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AC202FBF0A478D26B7A8CAE47A85F8 /* Keys-library.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Keys-library/Keys-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Keys;
+				PRODUCT_NAME = "Keys-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		385668E00B92C44B4D9AB5AA9C7301C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BCE9C7EA5DFB400F87595638B35806 /* Pods-GrotonApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AB079E4B17D1AA778AD953CD07B5B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4904578F2C581F608596B5FEF6DD6E43 /* Keys-framework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keys-framework/Keys-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys-framework/Keys-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keys-framework/Keys-framework.modulemap";
+				PRODUCT_MODULE_NAME = Keys;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B190E473C30E27E5E10AB87D44775B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAB22725B41787A8FD7D8E054EE4027 /* Keys-framework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Keys-framework/Keys-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys-framework/Keys-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Keys-framework/Keys-framework.modulemap";
+				PRODUCT_MODULE_NAME = Keys;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD7695E0DFF0756F6497A65A296F2B3 /* Build configuration list for PBXNativeTarget "Keys-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB079E4B17D1AA778AD953CD07B5B2B /* Debug */,
+				B190E473C30E27E5E10AB87D44775B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773930E56DE418D5F3BBC155B6B44771 /* Build configuration list for PBXNativeTarget "Keys-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3B6798DCE85BCD4D1ACF94DAD2D0E0 /* Debug */,
+				22C5A4F004FC5F7B16CE3EC887964452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A128BDC70D73FA935EF5C35F8CB71F /* Build configuration list for PBXNativeTarget "Pods-GrotonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B145622102FDB0FFCCC8AAEA68CF17F /* Debug */,
+				385668E00B92C44B4D9AB5AA9C7301C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
