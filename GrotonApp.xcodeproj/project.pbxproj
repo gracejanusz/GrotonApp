@@ -34,6 +34,7 @@
 		7CE3EDE82BBC3D20005F637E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftData-ContentView.swift"; sourceTree = "<group>"; };
 		7CE3EDF52BBC3DD2005F637E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CE3EDF72BBC3F77005F637E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +80,7 @@
 		7CE3EDD22BBC3C83005F637E /* GrotonApp */ = {
 			isa = PBXGroup;
 			children = (
+				7CE3EDF72BBC3F77005F637E /* Info.plist */,
 				7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */,
 				7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */,
 				7CE3EDF52BBC3DD2005F637E /* ContentView.swift */,
@@ -367,6 +369,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GrotonApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrotonApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -396,6 +399,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GrotonApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrotonApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

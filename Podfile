@@ -11,7 +11,7 @@ end
 
 plugin 'cocoapods-keys', {
   #change for app title
-  :project => "groton.org.GrotonApp.GrotonApp",
+  :project => "org.groton.GrotonApp",
   :keys => [
     "clientID",
     "clientSecret",
