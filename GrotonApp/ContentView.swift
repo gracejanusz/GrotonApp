@@ -12,24 +12,22 @@ struct ContentView: View {
     
     @State private var path = NavigationPath()
     @State private var token: OAuth2.TokenResponse?
+    @Environment(\.modelContext) private var context
+    @Environment(APIManager.self) private var apiManager: APIManager
+    
     
     var body: some View {
-        let keys = Keys.GrotonOrgGrotonAppGrotonAppKeys()
-        var oauth2 = OAuth2(
-            authURL: URL(string: "https://app.blackbaud.com/oauth/authorize")!,
-            tokenURL: URL(string: "https://oauth2.sky.blackbaud.com/token")!,
-            clientID: keys.clientID,
-            clientSecret: keys.clientSecret,
-            redirectURI: URL(string: keys.redirectURI)!
-        )
         //check to see if refresh token is stored in memory somewhere
         //if it is then 
+        // can I add
+
+        
         
         if (token == nil) {
             NavigationStack(path: $path) {
                 VStack {
                     NavigationLink(
-                        destination: WebView(url: oauth2.getAuthorizationURL(flow: .ClientSecret)),
+                        destination: WebView(url: apiManager.getAuthorizationURL(flow: .ClientSecret)),
                         label: {
                             HStack {
                                 Image(systemName: "person.badge.key.fill")
@@ -38,21 +36,30 @@ struct ContentView: View {
                         }
                     )
                 }.onOpenURL(perform: {url in
-                    oauth2.handleRedirect(url, flow: .ClientSecret) {token, error in
-                        guard error == nil else {
-                            print(error!.localizedDescription)
-                            return
-                        }
-                        self.token = token
-                    }
+                    apiManager.handleRedirect(url, flow: .ClientSecret)
                 })
             }
         } else {
+            
+            //https://api.sky.blackbaud.com/school/v1/schedules/{student_id}/meetings?start_date={start_date}[&end_date]
+            
             //Add show home screen thing.
-            TokenView(token: token!)
+//            VStack{
+//                Button("Schedule"){
+//                    //pass in token so scheduleview can call api and use token
+//                    ScheduleView(token: token!)
+//                }
+//                
+//                Button("Assignment Center") {
+//                    //change this assignment center view
+//                    ScheduleView(token: token!)
+//                }
+                
+                    TokenView(token: token!)
+            }
         }
     }
-}
+
 
 #Preview {
     ContentView()

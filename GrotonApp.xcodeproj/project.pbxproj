@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */; };
-		7CE3EDD82BBC3C83005F637E /* SwiftData-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */; };
 		7CE3EDDA2BBC3C84005F637E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD92BBC3C84005F637E /* Assets.xcassets */; };
 		7CE3EDDD2BBC3C84005F637E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */; };
 		7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE42BBC3D20005F637E /* TokenView.swift */; };
-		7CE3EDED2BBC3D20005F637E /* SwiftData-App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE52BBC3D20005F637E /* SwiftData-App.swift */; };
 		7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE72BBC3D20005F637E /* OAuth2.swift */; };
 		7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE82BBC3D20005F637E /* WebView.swift */; };
-		7CE3EDF22BBC3D20005F637E /* SwiftData-ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */; };
 		7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDF52BBC3DD2005F637E /* ContentView.swift */; };
+		7CE3EDF92BC323D2005F637E /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDF82BC323D2005F637E /* ScheduleView.swift */; };
+		7CE3EDFB2BC47048005F637E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDFA2BC47048005F637E /* Keychain.swift */; };
+		7CE3EDFD2BC4706F005F637E /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDFC2BC4706F005F637E /* TokenManager.swift */; };
+		7CE3EDFF2BC4710F005F637E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDFE2BC4710F005F637E /* APIManager.swift */; };
+		7CE3EE022BC4776D005F637E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EE012BC4776D005F637E /* Schedule.swift */; };
 		F4D6DA94D8A6916511922BB7 /* Pods_GrotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E837E9B611F71A296156F /* Pods_GrotonApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,16 +27,18 @@
 		49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.release.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
 		7CE3EDD02BBC3C83005F637E /* GrotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrotonAppApp.swift; sourceTree = "<group>"; };
-		7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftData-Item.swift"; sourceTree = "<group>"; };
 		7CE3EDD92BBC3C84005F637E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CE3EDE42BBC3D20005F637E /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
-		7CE3EDE52BBC3D20005F637E /* SwiftData-App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftData-App.swift"; sourceTree = "<group>"; };
 		7CE3EDE72BBC3D20005F637E /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
 		7CE3EDE82BBC3D20005F637E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftData-ContentView.swift"; sourceTree = "<group>"; };
 		7CE3EDF52BBC3DD2005F637E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CE3EDF72BBC3F77005F637E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7CE3EDF82BC323D2005F637E /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		7CE3EDFA2BC47048005F637E /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		7CE3EDFC2BC4706F005F637E /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		7CE3EDFE2BC4710F005F637E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7CE3EE012BC4776D005F637E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,14 +86,16 @@
 			children = (
 				7CE3EDF72BBC3F77005F637E /* Info.plist */,
 				7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */,
-				7CE3EDD72BBC3C83005F637E /* SwiftData-Item.swift */,
 				7CE3EDF52BBC3DD2005F637E /* ContentView.swift */,
 				7CE3EDE72BBC3D20005F637E /* OAuth2.swift */,
-				7CE3EDE52BBC3D20005F637E /* SwiftData-App.swift */,
-				7CE3EDEA2BBC3D20005F637E /* SwiftData-ContentView.swift */,
 				7CE3EDE42BBC3D20005F637E /* TokenView.swift */,
+				7CE3EDF82BC323D2005F637E /* ScheduleView.swift */,
 				7CE3EDE82BBC3D20005F637E /* WebView.swift */,
+				7CE3EDFA2BC47048005F637E /* Keychain.swift */,
+				7CE3EDFC2BC4706F005F637E /* TokenManager.swift */,
+				7CE3EDFE2BC4710F005F637E /* APIManager.swift */,
 				7CE3EDD92BBC3C84005F637E /* Assets.xcassets */,
+				7CE3EE002BC4775B005F637E /* Models */,
 				7CE3EDDB2BBC3C84005F637E /* Preview Content */,
 			);
 			path = GrotonApp;
@@ -101,6 +107,14 @@
 				7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CE3EE002BC4775B005F637E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CE3EE012BC4776D005F637E /* Schedule.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		8B0018EF980D25387291D70A /* Frameworks */ = {
@@ -225,14 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE3EDD82BBC3C83005F637E /* SwiftData-Item.swift in Sources */,
+				7CE3EDFF2BC4710F005F637E /* APIManager.swift in Sources */,
+				7CE3EDFD2BC4706F005F637E /* TokenManager.swift in Sources */,
 				7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */,
 				7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */,
 				7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */,
 				7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */,
+				7CE3EDF92BC323D2005F637E /* ScheduleView.swift in Sources */,
 				7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */,
-				7CE3EDF22BBC3D20005F637E /* SwiftData-ContentView.swift in Sources */,
-				7CE3EDED2BBC3D20005F637E /* SwiftData-App.swift in Sources */,
+				7CE3EE022BC4776D005F637E /* Schedule.swift in Sources */,
+				7CE3EDFB2BC47048005F637E /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

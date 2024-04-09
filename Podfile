@@ -15,6 +15,21 @@ plugin 'cocoapods-keys', {
   :keys => [
     "clientID",
     "clientSecret",
-    "redirectURI"
+    "redirectURI",
+    "subscriptionAccessKey"
   ]}
 
+# reset the `Keys` target to ios 17.0
+keys_pod_names = ['Keys']
+post_install do |installer_representation|
+  targets = installer_representation.pods_project.targets.select { |target|
+    keys_pod_names.select { |name|
+      target.display_name.eql? name
+    }.count > 0
+  }
+  targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '17.0'
+    end
+  end
+end
