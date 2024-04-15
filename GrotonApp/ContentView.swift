@@ -20,7 +20,7 @@ struct ContentView: View {
         //check to see if refresh token is stored in memory somewhere
         //if it is then 
         // can I add
-
+        
         
         
         if (token == nil) {
@@ -44,21 +44,21 @@ struct ContentView: View {
             //https://api.sky.blackbaud.com/school/v1/schedules/{student_id}/meetings?start_date={start_date}[&end_date]
             
             //Add show home screen thing.
-//            VStack{
-//                Button("Schedule"){
-//                    //pass in token so scheduleview can call api and use token
-//                    ScheduleView(token: token!)
-//                }
-//                
-//                Button("Assignment Center") {
-//                    //change this assignment center view
-//                    ScheduleView(token: token!)
-//                }
-                
-                    TokenView(token: token!)
-            }
+            //            VStack{
+            //                Button("Schedule"){
+            //                    //pass in token so scheduleview can call api and use token
+            //                    ScheduleView(token: token!)
+            //                }
+            //                
+            //                Button("Assignment Center") {
+            //                    //change this assignment center view
+            //                    ScheduleView(token: token!)
+            //                }
+            
+            TokenView(token: token!)
         }
     }
+}
 
 
 #Preview {

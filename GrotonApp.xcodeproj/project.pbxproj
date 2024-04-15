@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CD89EF92BCDAEB400931896 /* StudentScheduleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD89EF82BCDAEB400931896 /* StudentScheduleCollection.swift */; };
 		7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */; };
 		7CE3EDDA2BBC3C84005F637E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD92BBC3C84005F637E /* Assets.xcassets */; };
 		7CE3EDDD2BBC3C84005F637E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		362E837E9B611F71A296156F /* Pods_GrotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.release.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
+		7CD89EF82BCDAEB400931896 /* StudentScheduleCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentScheduleCollection.swift; sourceTree = "<group>"; };
 		7CE3EDD02BBC3C83005F637E /* GrotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrotonAppApp.swift; sourceTree = "<group>"; };
 		7CE3EDD92BBC3C84005F637E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				7CE3EE012BC4776D005F637E /* Schedule.swift */,
+				7CD89EF82BCDAEB400931896 /* StudentScheduleCollection.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */,
 				7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */,
 				7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */,
+				7CD89EF92BCDAEB400931896 /* StudentScheduleCollection.swift in Sources */,
 				7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */,
 				7CE3EDF92BC323D2005F637E /* ScheduleView.swift in Sources */,
 				7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */,
