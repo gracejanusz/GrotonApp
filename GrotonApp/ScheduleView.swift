@@ -7,10 +7,10 @@
 //
 import Foundation
 import SwiftUI
-struct ScheduleView{
+struct ScheduleView: View{
     //things we need
     @Environment(APIManager.self) private var apiManager: APIManager
-    var studentID: Int
+    var studentID: String
     @State var schedule: StudentScheduleCollection?
     @State var error: Error?
     
@@ -20,7 +20,7 @@ struct ScheduleView{
                 ProgressView("Loading...")
                     .task {
                         do{
-                            try apiManager.request(endpoint: "schedules/\(studentID)/meetings?start_date=\(Date.now.formatted(.iso8601))"){schedule,error in
+                            try apiManager.request(endpoint: "schedules/\(studentID)/meetings?start_date=2024-04-15"){schedule,error in
                                 self.schedule = schedule
                                 self.error = error
                             }
@@ -31,7 +31,10 @@ struct ScheduleView{
                 
             }else{
                 //show error visually
-                 Text(error!.localizedDescription)
+                HStack{
+                    Image(systemName: "exclamationmark.octagon.fill").foregroundColor(.red)
+                    Text(String(describing: error))
+                }
             }
         }else{
             VStack{
