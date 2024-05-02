@@ -39,12 +39,24 @@ struct ScheduleView: View{
         }else{
             VStack{
                 //figure out how to show it off!
+                Spacer()
+                Text(Date().formatted()).background(Color.blue).foregroundColor(.white)
                 ForEach(schedule!.value){ item in
                     Text(item.course_title ?? "Unnamed Course")
+                    Text(formatTimeRange(start: item.start_time, end: item.end_time))
+                    Text(item.room_name ?? "Unnamed Room")
+                Spacer()
                 }
             }
         }
     }
+    
+    func formatTimeRange(start: String?, end: String?) -> String {
+            guard let startTime = start, let endTime = end else {
+                return "--"
+            }
+            return "\(startTime) - \(endTime)"
+        }
 }
 
 
