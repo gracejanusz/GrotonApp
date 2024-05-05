@@ -12,7 +12,7 @@
 //    var id: Int
 //    
 //    init(section_name: String? = nil, section_id: Int? = nil, assignment_id: Int? = nil,
-//         short_description: String? = nil, date_assigned: String? = nil, date_due: String? = nil, long_description: String? = nil, assignment_type: String? = nil, grade_book: Bool? = nil, online_submission: Bool? = nil, assignment_status: Int? = nil, assessment: Bool? = nil, assessment_locked: Bool? = nil, major: Int? = nil, discussion: Bool? = nil, formative: Bool? = nil,exempt: Bool? = nil, incomplete: Bool? = nil, late: Bool? = nil, missing: Bool? = nil, rubric: Bool? = nil, user_task: Bool? = nil){
+//         short_description: Strin/Users/gjanusz24/Documents/GitHub/GrotonApp/GrotonApp/UserView.swiftg? = nil, date_assigned: String? = nil, date_due: String? = nil, long_description: String? = nil, assignment_type: String? = nil, grade_book: Bool? = nil, online_submission: Bool? = nil, assignment_status: Int? = nil, assessment: Bool? = nil, assessment_locked: Bool? = nil, major: Int? = nil, discussion: Bool? = nil, formative: Bool? = nil,exempt: Bool? = nil, incomplete: Bool? = nil, late: Bool? = nil, missing: Bool? = nil, rubric: Bool? = nil, user_task: Bool? = nil){
 //        
 //        self.section_name = section_name
 //        self.section_id = section_id

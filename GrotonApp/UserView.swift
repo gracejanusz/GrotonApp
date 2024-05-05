@@ -27,7 +27,11 @@ struct UserView: View {
                     }
                 }
             } else {
-                ErrorView(error!)
+                //display error
+                HStack{
+                    Image(systemName: "exclamationmark.octagon.fill").foregroundColor(.red)
+                    Text(String(describing: error))
+                }
             }
         } else {
             VStack {
@@ -69,5 +73,5 @@ struct UserView: View {
 }
 
 #Preview {
-    UserView(userId: 4641975).environment(APIManagerApp().apiManager)
+    UserView(userId: 4641975).environment(GrotonAppApp().apiManager)
 }
