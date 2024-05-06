@@ -12,7 +12,7 @@
 //    var user: User?;
 //    @State var schedule: StudentScheduleCollection?
 //    @State var error: Error?
-//    
+//
 //    var body: some View {
 //        if schedule == nil {
 //                if error == nil {
@@ -27,7 +27,7 @@
 //                            self.error=error
 //                        }
 //                    }
-//                
+//
 //            }else{
 //                VStack{
 //                    //figure out how to show it off!
@@ -42,7 +42,7 @@
 //                }
 //            }
 //        }
-//        
+//
 //        func formatTimeRange(start: String?, end: String?) -> String {
 //            guard let startTime = start, let endTime = end else {
 //                return "--"
@@ -57,43 +57,41 @@ import SwiftUI
 
 struct ScheduleView: View {
     @Environment(APIManager.self) private var apiManager: APIManager
-    var user: User?
+    var user: User
     @State private var schedule: StudentScheduleCollection?
     @State private var error: Error?
     
     var body: some View {
-        Group {
-            if let schedule = schedule {
-                VStack {
+        if let schedule = schedule {
+            VStack {
+                Spacer()
+                Text(Date().formatted()).background(Color.blue).foregroundColor(.white)
+                ForEach(schedule.value) { item in
+                    VStack {
+                        Text(item.course_title ?? "Unnamed Course")
+                        Text(formatTimeRange(start: item.start_time, end: item.end_time))
+                        Text(item.room_name ?? "Unnamed Room")
+                    }
                     Spacer()
-                    Text(Date().formatted()).background(Color.blue).foregroundColor(.white)
-                    ForEach(schedule.value) { item in
-                        VStack {
-                            Text(item.course_title ?? "Unnamed Course")
-                            Text(formatTimeRange(start: item.start_time, end: item.end_time))
-                            Text(item.room_name ?? "Unnamed Room")
-                        }
-                        Spacer()
-                    }
                 }
-            } else if error != nil {
-                HStack{
-                    Image(systemName: "exclamationmark.octagon.fill").foregroundColor(.red)
-                    Text(String(describing: error))
-                }
-            } else {
-                ProgressView("Loading...")
-                    .onAppear {
-                        fetchSchedule(user)
-                    }
             }
+        } else if error != nil {
+            HStack{
+                Image(systemName: "exclamationmark.octagon.fill").foregroundColor(.red)
+                Text(String(describing: error))
+            }
+        } else {
+            ProgressView("Loading...")
+                .task {
+                    fetchSchedule(user: user)
+                }
         }
     }
     
     func fetchSchedule(user: User) {
         do {
-            if let userId = Int(user.id) {
-                try apiManager.request(endpoint: "schedules/\(userId)/meetings?start_date=2024-04-15") { schedule, error in
+            if let userId = user.id {
+                try apiManager.request(endpoint: "schedules/\(userId)/meetings?start_date=2024-05-06") { schedule, error in
                     self.schedule = schedule
                     self.error = error
                 }
@@ -107,9 +105,9 @@ struct ScheduleView: View {
     }
     
     func formatTimeRange(start: String?, end: String?) -> String {
-                guard let startTime = start, let endTime = end else {
-                    return "--"
-                }
-                return "\(startTime) - \(endTime)"
-            }
+        guard let startTime = start, let endTime = end else {
+            return "--"
+        }
+        return "\(startTime) - \(endTime)"
+    }
 }
