@@ -27,6 +27,7 @@
 		7CF73B0A2BE3E9F2008AB278 /* ProfilePictureUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B092BE3E9F2008AB278 /* ProfilePictureUrls.swift */; };
 		7CF73B0C2BE3E9FA008AB278 /* HomeLanguageRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B0B2BE3E9FA008AB278 /* HomeLanguageRead.swift */; };
 		7CF73B0E2BE3EA52008AB278 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B0D2BE3EA52008AB278 /* User.swift */; };
+		7CF73B102BE95AC2008AB278 /* OfferingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B0F2BE95AC2008AB278 /* OfferingType.swift */; };
 		F4D6DA94D8A6916511922BB7 /* Pods_GrotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E837E9B611F71A296156F /* Pods_GrotonApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		7CF73B092BE3E9F2008AB278 /* ProfilePictureUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePictureUrls.swift; sourceTree = "<group>"; };
 		7CF73B0B2BE3E9FA008AB278 /* HomeLanguageRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLanguageRead.swift; sourceTree = "<group>"; };
 		7CF73B0D2BE3EA52008AB278 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CF73B0F2BE95AC2008AB278 /* OfferingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingType.swift; sourceTree = "<group>"; };
 		E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7CF73B0D2BE3EA52008AB278 /* User.swift */,
+				7CF73B0F2BE95AC2008AB278 /* OfferingType.swift */,
 				7CF73B092BE3E9F2008AB278 /* ProfilePictureUrls.swift */,
 				7CE3EE012BC4776D005F637E /* Schedule.swift */,
 				7CF73B0B2BE3E9FA008AB278 /* HomeLanguageRead.swift */,
@@ -266,6 +269,7 @@
 				7CF73B0C2BE3E9FA008AB278 /* HomeLanguageRead.swift in Sources */,
 				7CF73B002BE3DADF008AB278 /* Assignment.swift in Sources */,
 				7CE3EDFF2BC4710F005F637E /* APIManager.swift in Sources */,
+				7CF73B102BE95AC2008AB278 /* OfferingType.swift in Sources */,
 				7CE3EDFD2BC4706F005F637E /* TokenManager.swift in Sources */,
 				7CF73B042BE3E106008AB278 /* AssignmentView.swift in Sources */,
 				7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */,
