@@ -32,7 +32,7 @@ struct ScheduleView: View {
                 }) {
                     Image(systemName: "arrow.left")
                         .foregroundColor(.white)
-                        .font(.title) // Increased button heading size
+                        .font(.title)
                 }
                 
                 let weekday = formattedDate(selectedDate, format: "EEEE")
@@ -40,10 +40,10 @@ struct ScheduleView: View {
                 
                 Text("\(weekday) \(abbreviatedDate)")
                     .bold()
-                    .foregroundColor(.white) // Text color set to white
-                    .font(.headline) // Increased text size
+                    .foregroundColor(.white)
+                    .font(.headline)
                     .frame(maxWidth: .infinity)
-                    .background(Color.clear) // Transparent background
+                    .background(Color.clear)
                     
                 Spacer()
                 
@@ -53,7 +53,7 @@ struct ScheduleView: View {
                 }) {
                     Image(systemName: "arrow.right")
                         .foregroundColor(.white)
-                        .font(.title) // Increased button heading size
+                        .font(.title) 
                 }
             }
             .padding(.horizontal)
@@ -125,12 +125,10 @@ struct ScheduleView: View {
         }
         let dateFormatterInput = DateFormatter()
         dateFormatterInput.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
-        dateFormatterInput.timeZone = TimeZone(identifier: "UTC")
         
         let dateFormatterOutput = DateFormatter()
         dateFormatterOutput.dateFormat = "H:mm"
-        dateFormatterOutput.timeZone = TimeZone(identifier: "America/New_York")
-        
+        dateFormatterOutput.timeZone = TimeZone.current
         if let startDate = dateFormatterInput.date(from: startTime), let endDate = dateFormatterInput.date(from: endTime) {
             return "\(dateFormatterOutput.string(from: startDate)) - \(dateFormatterOutput.string(from: endDate))"
         } else {
