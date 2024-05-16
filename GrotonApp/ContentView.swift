@@ -14,8 +14,6 @@ struct ContentView: View {
     @Environment(APIManager.self) private var apiManager: APIManager
     @State var user: User?;
     @State var error: Error?
-    @State var showSchedule = false
-    @State private var showAssignmentView = false
     
     var body: some View {
         if (apiManager.authorized) {
@@ -41,35 +39,29 @@ struct ContentView: View {
                 }
                 
             } else {
-                VStack {
-                    if showSchedule {
-                        ScheduleView(user: user!)
-                            .padding()
-                    }
-                    if showAssignmentView {
-                        AssignmentView(user: user!)
-                            .padding()
-                    } else {
-                        Button(action: {
-                            showSchedule = true
-                        }) {
+                NavigationStack {
+                    VStack {
+                        NavigationLink(value: "schedule", label: {
                             Text("Open Schedule")
                                 .foregroundColor(.white)
                                 .padding()
                                 .background(Color.blue)
                                 .cornerRadius(8)
-                        }
-                        .padding()
+                        })
                         
                         // Button to navigate to AssignmentView
-                        Button(action: {
-                            showAssignmentView = true
-                        }) {
+                        NavigationLink(value: "assignments", label: {
                             Text("Assignment Center")
                                 .foregroundColor(.white)
                                 .padding()
                                 .background(Color.blue)
                                 .cornerRadius(8)
+                        })
+                    }.navigationDestination(for: String.self) {key in
+                        if (key == "schedule") {
+                            ScheduleView(user: user!)
+                        } else if (key == "assignments") {
+                            AssignmentView(user: user!)
                         }
                     }
                 }

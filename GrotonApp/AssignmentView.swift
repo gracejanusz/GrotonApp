@@ -85,8 +85,9 @@ struct AssignmentView: View {
                 }
                 .padding()
             } else {
-                ProgressView("Loading...")
-                fetchAssignments(for: selectedDate)
+                ProgressView("Loading...").task {
+                    fetchAssignments(for: selectedDate)
+                }
             }
         }
         .padding()
@@ -99,7 +100,7 @@ struct AssignmentView: View {
                 self.error = NSError(domain: "InvalidUserID", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid user ID"])
                 return
             }
-            let endpoint = "academics/\(userId)/assignments?start_date=\(formattedDate)"
+            let endpoint = "academics/\(userId)/assignments?start_date=\(date.ISO8601Format())"
             try apiManager.request(endpoint: endpoint) { result, error in
                 self.assignment = result
                 self.error = error
@@ -109,7 +110,7 @@ struct AssignmentView: View {
         }
     }
 
-    // Function to format date
+
     private func formattedDate(_ date: Date, format: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format

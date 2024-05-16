@@ -28,7 +28,7 @@ struct ScheduleView: View {
             HStack {
                 Button(action: {
                     selectedDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) ?? selectedDate
-                    fetchSchedule(for: selectedDate)
+                    schedule = nil
                 }) {
                     Image(systemName: "arrow.left")
                         .foregroundColor(.white)
@@ -49,7 +49,7 @@ struct ScheduleView: View {
                 
                 Button(action: {
                     selectedDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) ?? selectedDate
-                    fetchSchedule(for: selectedDate)
+                    schedule = nil
                 }) {
                     Image(systemName: "arrow.right")
                         .foregroundColor(.white)
@@ -57,8 +57,8 @@ struct ScheduleView: View {
                 }
             }
             .padding(.horizontal)
-            if let schedule = schedule {
-                let sortedSchedule = schedule.value.sorted { $0.start_time ?? "" < $1.start_time ?? "" }
+            if (schedule != nil) {
+                let sortedSchedule = schedule!.value.sorted { $0.start_time ?? "" < $1.start_time ?? "" }
                 List {
                     Spacer()
                     
@@ -90,10 +90,12 @@ struct ScheduleView: View {
                     Text(String(describing: error))
                 }
             } else {
-                ProgressView("Loading...")
-                    .task {
-                        fetchSchedule(for: selectedDate)
-                    }
+                List {
+                    ProgressView("Loading...")
+                        .task {
+                            fetchSchedule(for: selectedDate)
+                        }.padding()
+                }
             }
         }
     }
@@ -101,12 +103,14 @@ struct ScheduleView: View {
     private func fetchSchedule(for date: Date) {
         do {
             if let userId = user.id {
-                try apiManager.request(endpoint: "schedules/\(userId)/meetings?start_date=2024-05-06") { schedule, error in
+                let formatter = DateFormatter()
+                formatter.dateFormat = "yyyy-MM-dd"
+                try apiManager.request(endpoint: "schedules/\(userId)/meetings?start_date=\(formatter.string(from: date))") { schedule, error in
                     self.schedule = schedule
                     self.error = error
                 }
             } else {
-                self.error = NSError(domain: "InvalidUserID", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid user ID"])
+                self.error = NSError(domain: "InvalidUserID", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid user ID: \(String(describing:  user))"])
             }
         } catch {
             self.error = error
@@ -123,13 +127,13 @@ struct ScheduleView: View {
         guard let startTime = start, let endTime = end else {
             return "--"
         }
-        let dateFormatterInput = DateFormatter()
-        dateFormatterInput.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
-        
+        let dateInput = DateFormatter()
+        dateInput.dateFormat = "yyyy-MM-dd'T'HH:mm:ss'+00:00'"
+        dateInput.timeZone = .current
         let dateFormatterOutput = DateFormatter()
         dateFormatterOutput.dateFormat = "H:mm"
         dateFormatterOutput.timeZone = TimeZone.current
-        if let startDate = dateFormatterInput.date(from: startTime), let endDate = dateFormatterInput.date(from: endTime) {
+        if let startDate = dateInput.date(from: startTime), let endDate = dateInput.date(from: endTime) {
             return "\(dateFormatterOutput.string(from: startDate)) - \(dateFormatterOutput.string(from: endDate))"
         } else {
             return "--"
