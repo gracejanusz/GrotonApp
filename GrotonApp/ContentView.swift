@@ -75,9 +75,9 @@ struct ContentView: View {
                 }
             }
         } else {
-            apiManager.authorizationView(flow: .ClientSecret)
+            apiManager.authorizationView()
                 .onOpenURL() { url in
-                    apiManager.handleRedirect(url, flow: .ClientSecret)
+                    apiManager.handleRedirect(url)
                 }
         }
     }
