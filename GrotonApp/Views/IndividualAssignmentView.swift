@@ -41,17 +41,17 @@ struct IndividualAssignmentView: View {
             .cornerRadius(8)
             .padding(.vertical, 4)
             .navigationBarBackButtonHidden(true)
-            .navigationBarItems(leading: backButton)
+//            .navigationBarItems(leading: backButton)
         }
         
-        private var backButton: some View {
-            Button(action: {
-                presentationMode.wrappedValue.dismiss()
-            }) {
-                Image(systemName: "arrow.left")
-                    .foregroundColor(.white)
-                    .font(.title)
-            }
-            .buttonStyle(PlainButtonStyle())
-        }
+//        private var backButton: some View {
+//            Button(action: {
+//                presentationMode.wrappedValue.dismiss()
+//            }) {
+//                Image(systemName: "arrow.left")
+//                    .foregroundColor(.white)
+//                    .font(.title)
+//            }
+//            .buttonStyle(PlainButtonStyle())
+//        }
     }

@@ -72,13 +72,13 @@ struct ScheduleView: View {
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                             
-                            if(item.room_number !=nil || item.room_number !=""){
+                            if(item.room_number != nil || item.room_number != ""){
                                 Text("Room \(item.room_number ?? "Unnamed Room")")
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
                             }
                             if (item.faculty_lastname != nil || item.faculty_lastname != "") {
-                                Text("Teacher: \(teacher)")
+                                Text("Teacher: \(item.faculty_lastname)")
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
                             }

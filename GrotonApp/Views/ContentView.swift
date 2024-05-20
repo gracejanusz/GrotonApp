@@ -1,6 +1,5 @@
 //
-//  ContentView.swift
-//  OAuth2Authorization
+//  
 //
 //  Created by Seth Battis on 3/21/24.
 import SwiftUI
@@ -53,7 +52,7 @@ struct ContentView: View {
                                 Text("Open Schedule")
                                     .foregroundColor(.white)
                                     .padding()
-                                    .background(Color.maroon)
+                                    .background(Color.red)
                                     .cornerRadius(8)
                             }
                             
@@ -61,7 +60,7 @@ struct ContentView: View {
                                 Text("Assignment Center")
                                     .foregroundColor(.white)
                                     .padding()
-                                    .background(Color.maroon)
+                                    .background(Color.red)
                                     .cornerRadius(8)
                             }
                         }

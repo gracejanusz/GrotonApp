@@ -1,6 +1,6 @@
 //
-//  OAuth2AuthorizationApp.swift
-//  OAuth2Authorization
+//  GrotonApp.swift
+//  GrotonApp
 //  Created by Seth Battis on 3/21/24.
 //
 
@@ -17,7 +17,7 @@ struct GrotonAppApp: App {
         }
     }
     init() {
-        let keys = Keys.OrgGrotonGrotonAppKeys()
+        let keys = Keys.GrotonOrgGrotonAppGrotonAppKeys()
         apiManager = APIManager(
             authURL: URL(string: "https://app.blackbaud.com/oauth/authorize")!,
             tokenURL: URL(string: "https://oauth2.sky.blackbaud.com/token")!,

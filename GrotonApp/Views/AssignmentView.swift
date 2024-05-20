@@ -13,7 +13,7 @@ struct AssignmentView: View {
     @State private var assignment: AssignmentCollection?
     @State private var error: Error?
     @State private var selectedDate = Date()
-
+    
     var body: some View {
         ZStack {
             Color.darkRed
@@ -31,7 +31,7 @@ struct AssignmentView: View {
         VStack {
             
             if let assignment = assignment {
-                ForEach(assignment.sorted { $0.section_name ?? "" < $1.section_name ?? "" }) { item in
+                ForEach(assignment.value.sorted { $0.section_name ?? "" < $1.section_name ?? "" }) { item in
                     NavigationLink(destination: IndividualAssignmentView(assignment: item)) {
                         VStack(alignment: .leading, spacing: 8) {
                             Text(item.short_description ?? "Unnamed Assignment")
@@ -42,30 +42,28 @@ struct AssignmentView: View {
                                 .font(.body)
                                 .foregroundColor(.secondary)
                                 .padding()
-                                .background(item.missing ? Color(red: 1.0, green: 0.9, blue: 0.9) : Color.white)
-                                .cornerRadius(8) // Add corner radius for better appearance
+                                .background(item.missing ?? false ? Color(red: 1.0, green: 0.9, blue: 0.9) : Color.white)
                                 .padding(.vertical, 4)
                         }
                     }
                 }
             }
-            }else if let error = error{
+            else if let error = error{
                 HStack {
                     Image(systemName: "exclamationmark.octagon.fill")
                         .foregroundColor(.red)
                     Text(error.localizedDescription)
                         .foregroundColor(.red)
-                }
-                .padding()
+                }.padding()
+                
             } else {
                 ProgressView("Loading...").task {
                     fetchAssignments(for: selectedDate)
                 }
             }
         }
-        .padding()
     }
-
+    
     private func fetchAssignments(for date: Date) {
         do {
             let formattedDate = DateFormatter().string(from: date)
@@ -82,7 +80,7 @@ struct AssignmentView: View {
             self.error = error
         }
     }
-
+    
     private func formattedDate(_ date: Date, format: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
