@@ -7,174 +7,174 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CD89EF92BCDAEB400931896 /* StudentScheduleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD89EF82BCDAEB400931896 /* StudentScheduleCollection.swift */; };
-		7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */; };
-		7CE3EDDA2BBC3C84005F637E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDD92BBC3C84005F637E /* Assets.xcassets */; };
-		7CE3EDDD2BBC3C84005F637E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */; };
-		7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE42BBC3D20005F637E /* TokenView.swift */; };
-		7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE72BBC3D20005F637E /* OAuth2.swift */; };
-		7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDE82BBC3D20005F637E /* WebView.swift */; };
-		7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDF52BBC3DD2005F637E /* ContentView.swift */; };
-		7CE3EDF92BC323D2005F637E /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDF82BC323D2005F637E /* ScheduleView.swift */; };
-		7CE3EDFB2BC47048005F637E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDFA2BC47048005F637E /* Keychain.swift */; };
-		7CE3EDFD2BC4706F005F637E /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDFC2BC4706F005F637E /* TokenManager.swift */; };
-		7CE3EDFF2BC4710F005F637E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EDFE2BC4710F005F637E /* APIManager.swift */; };
-		7CE3EE022BC4776D005F637E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE3EE012BC4776D005F637E /* Schedule.swift */; };
-		7CF73B002BE3DADF008AB278 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73AFF2BE3DADF008AB278 /* Assignment.swift */; };
-		7CF73B022BE3DAF1008AB278 /* AssignmentCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B012BE3DAF1008AB278 /* AssignmentCollection.swift */; };
-		7CF73B042BE3E106008AB278 /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B032BE3E106008AB278 /* AssignmentView.swift */; };
-		7CF73B062BE3E8C4008AB278 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B052BE3E8C4008AB278 /* UserView.swift */; };
-		7CF73B0A2BE3E9F2008AB278 /* ProfilePictureUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B092BE3E9F2008AB278 /* ProfilePictureUrls.swift */; };
-		7CF73B0C2BE3E9FA008AB278 /* HomeLanguageRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B0B2BE3E9FA008AB278 /* HomeLanguageRead.swift */; };
-		7CF73B0E2BE3EA52008AB278 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B0D2BE3EA52008AB278 /* User.swift */; };
-		7CF73B102BE95AC2008AB278 /* OfferingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B0F2BE95AC2008AB278 /* OfferingType.swift */; };
-		7CF73B132BFAF55A008AB278 /* IndividualAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B122BFAF55A008AB278 /* IndividualAssignmentView.swift */; };
-		F4D6DA94D8A6916511922BB7 /* Pods_GrotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E837E9B611F71A296156F /* Pods_GrotonApp.framework */; };
+		7C74809C2BFBD0B200F02109 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF73BA62BFBCE60008AB278 /* Preview Assets.xcassets */; };
+		7CF73B9E2BFBCE5D008AB278 /* GrotonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73B9D2BFBCE5D008AB278 /* GrotonAppApp.swift */; };
+		7CF73BA42BFBCE60008AB278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF73BA32BFBCE60008AB278 /* Assets.xcassets */; };
+		7CF73BC22BFBCEBF008AB278 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BAD2BFBCEBF008AB278 /* Assignment.swift */; };
+		7CF73BC32BFBCEBF008AB278 /* AssignmentCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BAE2BFBCEBF008AB278 /* AssignmentCollection.swift */; };
+		7CF73BC42BFBCEBF008AB278 /* HomeLanguageRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BAF2BFBCEBF008AB278 /* HomeLanguageRead.swift */; };
+		7CF73BC52BFBCEBF008AB278 /* OfferingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB02BFBCEBF008AB278 /* OfferingType.swift */; };
+		7CF73BC62BFBCEBF008AB278 /* ProfilePictureUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB12BFBCEBF008AB278 /* ProfilePictureUrls.swift */; };
+		7CF73BC72BFBCEBF008AB278 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB22BFBCEBF008AB278 /* Schedule.swift */; };
+		7CF73BC82BFBCEBF008AB278 /* StudentScheduleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB32BFBCEBF008AB278 /* StudentScheduleCollection.swift */; };
+		7CF73BC92BFBCEBF008AB278 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB42BFBCEBF008AB278 /* User.swift */; };
+		7CF73BCA2BFBCEBF008AB278 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB62BFBCEBF008AB278 /* OAuth2.swift */; };
+		7CF73BCB2BFBCEBF008AB278 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB72BFBCEBF008AB278 /* TokenManager.swift */; };
+		7CF73BCC2BFBCEBF008AB278 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB82BFBCEBF008AB278 /* Keychain.swift */; };
+		7CF73BCD2BFBCEBF008AB278 /* AssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BB92BFBCEBF008AB278 /* AssignmentView.swift */; };
+		7CF73BCE2BFBCEBF008AB278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BBA2BFBCEBF008AB278 /* ContentView.swift */; };
+		7CF73BCF2BFBCEBF008AB278 /* IndividualAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BBB2BFBCEBF008AB278 /* IndividualAssignmentView.swift */; };
+		7CF73BD02BFBCEBF008AB278 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BBC2BFBCEBF008AB278 /* ScheduleView.swift */; };
+		7CF73BD12BFBCEBF008AB278 /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BBD2BFBCEBF008AB278 /* TokenView.swift */; };
+		7CF73BD22BFBCEBF008AB278 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BBE2BFBCEBF008AB278 /* UserView.swift */; };
+		7CF73BD32BFBCEBF008AB278 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BBF2BFBCEBF008AB278 /* WebView.swift */; };
+		7CF73BD42BFBCEBF008AB278 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF73BC12BFBCEBF008AB278 /* APIManager.swift */; };
+		FA8517AD8DDA3B759D1C4FDE /* Pods_GrotonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A4F60BE306C8FAB1448814 /* Pods_GrotonApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		362E837E9B611F71A296156F /* Pods_GrotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.release.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
-		7CD89EF82BCDAEB400931896 /* StudentScheduleCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentScheduleCollection.swift; sourceTree = "<group>"; };
-		7CE3EDD02BBC3C83005F637E /* GrotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrotonAppApp.swift; sourceTree = "<group>"; };
-		7CE3EDD92BBC3C84005F637E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7CE3EDE42BBC3D20005F637E /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
-		7CE3EDE72BBC3D20005F637E /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
-		7CE3EDE82BBC3D20005F637E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		7CE3EDF52BBC3DD2005F637E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7CE3EDF72BBC3F77005F637E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		7CE3EDF82BC323D2005F637E /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
-		7CE3EDFA2BC47048005F637E /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		7CE3EDFC2BC4706F005F637E /* TokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
-		7CE3EDFE2BC4710F005F637E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		7CE3EE012BC4776D005F637E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
-		7CF73AFF2BE3DADF008AB278 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
-		7CF73B012BE3DAF1008AB278 /* AssignmentCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentCollection.swift; sourceTree = "<group>"; };
-		7CF73B032BE3E106008AB278 /* AssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
-		7CF73B052BE3E8C4008AB278 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
-		7CF73B092BE3E9F2008AB278 /* ProfilePictureUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePictureUrls.swift; sourceTree = "<group>"; };
-		7CF73B0B2BE3E9FA008AB278 /* HomeLanguageRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLanguageRead.swift; sourceTree = "<group>"; };
-		7CF73B0D2BE3EA52008AB278 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		7CF73B0F2BE95AC2008AB278 /* OfferingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingType.swift; sourceTree = "<group>"; };
-		7CF73B122BFAF55A008AB278 /* IndividualAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualAssignmentView.swift; sourceTree = "<group>"; };
-		E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		029CC335532F340A57E45740 /* Pods-GrotonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.debug.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		55A4F60BE306C8FAB1448814 /* Pods_GrotonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrotonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C74809B2BFBCF8B00F02109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF73B9A2BFBCE5D008AB278 /* GrotonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrotonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF73B9D2BFBCE5D008AB278 /* GrotonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrotonAppApp.swift; sourceTree = "<group>"; };
+		7CF73BA32BFBCE60008AB278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF73BA62BFBCE60008AB278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CF73BAD2BFBCEBF008AB278 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		7CF73BAE2BFBCEBF008AB278 /* AssignmentCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentCollection.swift; sourceTree = "<group>"; };
+		7CF73BAF2BFBCEBF008AB278 /* HomeLanguageRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLanguageRead.swift; sourceTree = "<group>"; };
+		7CF73BB02BFBCEBF008AB278 /* OfferingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingType.swift; sourceTree = "<group>"; };
+		7CF73BB12BFBCEBF008AB278 /* ProfilePictureUrls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePictureUrls.swift; sourceTree = "<group>"; };
+		7CF73BB22BFBCEBF008AB278 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		7CF73BB32BFBCEBF008AB278 /* StudentScheduleCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentScheduleCollection.swift; sourceTree = "<group>"; };
+		7CF73BB42BFBCEBF008AB278 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CF73BB62BFBCEBF008AB278 /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
+		7CF73BB72BFBCEBF008AB278 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		7CF73BB82BFBCEBF008AB278 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		7CF73BB92BFBCEBF008AB278 /* AssignmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentView.swift; sourceTree = "<group>"; };
+		7CF73BBA2BFBCEBF008AB278 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CF73BBB2BFBCEBF008AB278 /* IndividualAssignmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualAssignmentView.swift; sourceTree = "<group>"; };
+		7CF73BBC2BFBCEBF008AB278 /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		7CF73BBD2BFBCEBF008AB278 /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
+		7CF73BBE2BFBCEBF008AB278 /* UserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		7CF73BBF2BFBCEBF008AB278 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		7CF73BC12BFBCEBF008AB278 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EAD6E32CA64E5F12CEE42E45 /* Pods-GrotonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrotonApp.release.xcconfig"; path = "Target Support Files/Pods-GrotonApp/Pods-GrotonApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7CE3EDCD2BBC3C83005F637E /* Frameworks */ = {
+		7CF73B972BFBCE5D008AB278 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D6DA94D8A6916511922BB7 /* Pods_GrotonApp.framework in Frameworks */,
+				FA8517AD8DDA3B759D1C4FDE /* Pods_GrotonApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1309668CF64643ECDB0B1195 /* Pods */ = {
+		2EA6D2741DFC2179D169CAF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */,
-				49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */,
+				029CC335532F340A57E45740 /* Pods-GrotonApp.debug.xcconfig */,
+				EAD6E32CA64E5F12CEE42E45 /* Pods-GrotonApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		7CE3EDC72BBC3C83005F637E = {
+		7758CDB1CAE8F2D3FE69E24B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7CE3EDD22BBC3C83005F637E /* GrotonApp */,
-				7CE3EDD12BBC3C83005F637E /* Products */,
-				1309668CF64643ECDB0B1195 /* Pods */,
-				8B0018EF980D25387291D70A /* Frameworks */,
+				55A4F60BE306C8FAB1448814 /* Pods_GrotonApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF73B912BFBCE5D008AB278 = {
+			isa = PBXGroup;
+			children = (
+				7CF73B9C2BFBCE5D008AB278 /* GrotonApp */,
+				7CF73B9B2BFBCE5D008AB278 /* Products */,
+				2EA6D2741DFC2179D169CAF8 /* Pods */,
+				7758CDB1CAE8F2D3FE69E24B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7CE3EDD12BBC3C83005F637E /* Products */ = {
+		7CF73B9B2BFBCE5D008AB278 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CE3EDD02BBC3C83005F637E /* GrotonApp.app */,
+				7CF73B9A2BFBCE5D008AB278 /* GrotonApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CE3EDD22BBC3C83005F637E /* GrotonApp */ = {
+		7CF73B9C2BFBCE5D008AB278 /* GrotonApp */ = {
 			isa = PBXGroup;
 			children = (
-				7CE3EDF72BBC3F77005F637E /* Info.plist */,
-				7CE3EDD32BBC3C83005F637E /* GrotonAppApp.swift */,
-				7CE3EDE72BBC3D20005F637E /* OAuth2.swift */,
-				7CE3EDFA2BC47048005F637E /* Keychain.swift */,
-				7CE3EDFC2BC4706F005F637E /* TokenManager.swift */,
-				7CE3EDFE2BC4710F005F637E /* APIManager.swift */,
-				7CF73B112BFAF52D008AB278 /* Views */,
-				7CE3EDD92BBC3C84005F637E /* Assets.xcassets */,
-				7CE3EE002BC4775B005F637E /* Models */,
-				7CE3EDDB2BBC3C84005F637E /* Preview Content */,
+				7C74809B2BFBCF8B00F02109 /* Info.plist */,
+				7CF73B9D2BFBCE5D008AB278 /* GrotonAppApp.swift */,
+				7CF73BC12BFBCEBF008AB278 /* APIManager.swift */,
+				7CF73BB82BFBCEBF008AB278 /* Keychain.swift */,
+				7CF73BB52BFBCEBF008AB278 /* Models */,
+				7CF73BB62BFBCEBF008AB278 /* OAuth2.swift */,
+				7CF73BB72BFBCEBF008AB278 /* TokenManager.swift */,
+				7CF73BC02BFBCEBF008AB278 /* Views */,
+				7CF73BA32BFBCE60008AB278 /* Assets.xcassets */,
+				7CF73BA52BFBCE60008AB278 /* Preview Content */,
 			);
 			path = GrotonApp;
 			sourceTree = "<group>";
 		};
-		7CE3EDDB2BBC3C84005F637E /* Preview Content */ = {
+		7CF73BA52BFBCE60008AB278 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7CE3EDDC2BBC3C84005F637E /* Preview Assets.xcassets */,
+				7CF73BA62BFBCE60008AB278 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7CE3EE002BC4775B005F637E /* Models */ = {
+		7CF73BB52BFBCEBF008AB278 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7CF73B0D2BE3EA52008AB278 /* User.swift */,
-				7CF73B0F2BE95AC2008AB278 /* OfferingType.swift */,
-				7CF73B092BE3E9F2008AB278 /* ProfilePictureUrls.swift */,
-				7CE3EE012BC4776D005F637E /* Schedule.swift */,
-				7CF73B0B2BE3E9FA008AB278 /* HomeLanguageRead.swift */,
-				7CF73AFF2BE3DADF008AB278 /* Assignment.swift */,
-				7CF73B012BE3DAF1008AB278 /* AssignmentCollection.swift */,
-				7CD89EF82BCDAEB400931896 /* StudentScheduleCollection.swift */,
+				7CF73BAD2BFBCEBF008AB278 /* Assignment.swift */,
+				7CF73BAE2BFBCEBF008AB278 /* AssignmentCollection.swift */,
+				7CF73BAF2BFBCEBF008AB278 /* HomeLanguageRead.swift */,
+				7CF73BB02BFBCEBF008AB278 /* OfferingType.swift */,
+				7CF73BB12BFBCEBF008AB278 /* ProfilePictureUrls.swift */,
+				7CF73BB22BFBCEBF008AB278 /* Schedule.swift */,
+				7CF73BB32BFBCEBF008AB278 /* StudentScheduleCollection.swift */,
+				7CF73BB42BFBCEBF008AB278 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		7CF73B112BFAF52D008AB278 /* Views */ = {
+		7CF73BC02BFBCEBF008AB278 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7CE3EDF52BBC3DD2005F637E /* ContentView.swift */,
-				7CE3EDE42BBC3D20005F637E /* TokenView.swift */,
-				7CF73B122BFAF55A008AB278 /* IndividualAssignmentView.swift */,
-				7CE3EDE82BBC3D20005F637E /* WebView.swift */,
-				7CE3EDF82BC323D2005F637E /* ScheduleView.swift */,
-				7CF73B052BE3E8C4008AB278 /* UserView.swift */,
-				7CF73B032BE3E106008AB278 /* AssignmentView.swift */,
+				7CF73BB92BFBCEBF008AB278 /* AssignmentView.swift */,
+				7CF73BBA2BFBCEBF008AB278 /* ContentView.swift */,
+				7CF73BBB2BFBCEBF008AB278 /* IndividualAssignmentView.swift */,
+				7CF73BBC2BFBCEBF008AB278 /* ScheduleView.swift */,
+				7CF73BBD2BFBCEBF008AB278 /* TokenView.swift */,
+				7CF73BBE2BFBCEBF008AB278 /* UserView.swift */,
+				7CF73BBF2BFBCEBF008AB278 /* WebView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		8B0018EF980D25387291D70A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				362E837E9B611F71A296156F /* Pods_GrotonApp.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CE3EDCF2BBC3C83005F637E /* GrotonApp */ = {
+		7CF73B992BFBCE5D008AB278 /* GrotonApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CE3EDE02BBC3C84005F637E /* Build configuration list for PBXNativeTarget "GrotonApp" */;
+			buildConfigurationList = 7CF73BAA2BFBCE60008AB278 /* Build configuration list for PBXNativeTarget "GrotonApp" */;
 			buildPhases = (
-				32EBDE64DD8545D4892EAAD1 /* [CP] Check Pods Manifest.lock */,
-				7CE3EDCC2BBC3C83005F637E /* Sources */,
-				7CE3EDCD2BBC3C83005F637E /* Frameworks */,
-				7CE3EDCE2BBC3C83005F637E /* Resources */,
-				C336C252B6AFB165A11E3BBA /* [CP] Embed Pods Frameworks */,
+				EACCB5014874F0D75C4A41C9 /* [CP] Check Pods Manifest.lock */,
+				7CF73B962BFBCE5D008AB278 /* Sources */,
+				7CF73B972BFBCE5D008AB278 /* Frameworks */,
+				7CF73B982BFBCE5D008AB278 /* Resources */,
+				62C82B26090A02492D126524 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,25 +182,25 @@
 			);
 			name = GrotonApp;
 			productName = GrotonApp;
-			productReference = 7CE3EDD02BBC3C83005F637E /* GrotonApp.app */;
+			productReference = 7CF73B9A2BFBCE5D008AB278 /* GrotonApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7CE3EDC82BBC3C83005F637E /* Project object */ = {
+		7CF73B922BFBCE5D008AB278 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					7CE3EDCF2BBC3C83005F637E = {
+					7CF73B992BFBCE5D008AB278 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 7CE3EDCB2BBC3C83005F637E /* Build configuration list for PBXProject "GrotonApp" */;
+			buildConfigurationList = 7CF73B952BFBCE5D008AB278 /* Build configuration list for PBXProject "GrotonApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,30 +208,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 7CE3EDC72BBC3C83005F637E;
-			productRefGroup = 7CE3EDD12BBC3C83005F637E /* Products */;
+			mainGroup = 7CF73B912BFBCE5D008AB278;
+			productRefGroup = 7CF73B9B2BFBCE5D008AB278 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CE3EDCF2BBC3C83005F637E /* GrotonApp */,
+				7CF73B992BFBCE5D008AB278 /* GrotonApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7CE3EDCE2BBC3C83005F637E /* Resources */ = {
+		7CF73B982BFBCE5D008AB278 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE3EDDD2BBC3C84005F637E /* Preview Assets.xcassets in Resources */,
-				7CE3EDDA2BBC3C84005F637E /* Assets.xcassets in Resources */,
+				7C74809C2BFBD0B200F02109 /* Preview Assets.xcassets in Resources */,
+				7CF73BA42BFBCE60008AB278 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32EBDE64DD8545D4892EAAD1 /* [CP] Check Pods Manifest.lock */ = {
+		62C82B26090A02492D126524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACCB5014874F0D75C4A41C9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,57 +270,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C336C252B6AFB165A11E3BBA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrotonApp/Pods-GrotonApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CE3EDCC2BBC3C83005F637E /* Sources */ = {
+		7CF73B962BFBCE5D008AB278 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF73B0C2BE3E9FA008AB278 /* HomeLanguageRead.swift in Sources */,
-				7CF73B002BE3DADF008AB278 /* Assignment.swift in Sources */,
-				7CE3EDFF2BC4710F005F637E /* APIManager.swift in Sources */,
-				7CF73B102BE95AC2008AB278 /* OfferingType.swift in Sources */,
-				7CE3EDFD2BC4706F005F637E /* TokenManager.swift in Sources */,
-				7CF73B042BE3E106008AB278 /* AssignmentView.swift in Sources */,
-				7CF73B132BFAF55A008AB278 /* IndividualAssignmentView.swift in Sources */,
-				7CE3EDEF2BBC3D20005F637E /* OAuth2.swift in Sources */,
-				7CE3EDF62BBC3DD2005F637E /* ContentView.swift in Sources */,
-				7CE3EDEC2BBC3D20005F637E /* TokenView.swift in Sources */,
-				7CF73B062BE3E8C4008AB278 /* UserView.swift in Sources */,
-				7CD89EF92BCDAEB400931896 /* StudentScheduleCollection.swift in Sources */,
-				7CE3EDF02BBC3D20005F637E /* WebView.swift in Sources */,
-				7CF73B0A2BE3E9F2008AB278 /* ProfilePictureUrls.swift in Sources */,
-				7CE3EDF92BC323D2005F637E /* ScheduleView.swift in Sources */,
-				7CE3EDD42BBC3C83005F637E /* GrotonAppApp.swift in Sources */,
-				7CE3EE022BC4776D005F637E /* Schedule.swift in Sources */,
-				7CF73B022BE3DAF1008AB278 /* AssignmentCollection.swift in Sources */,
-				7CE3EDFB2BC47048005F637E /* Keychain.swift in Sources */,
-				7CF73B0E2BE3EA52008AB278 /* User.swift in Sources */,
+				7CF73BC62BFBCEBF008AB278 /* ProfilePictureUrls.swift in Sources */,
+				7CF73BD32BFBCEBF008AB278 /* WebView.swift in Sources */,
+				7CF73BCB2BFBCEBF008AB278 /* TokenManager.swift in Sources */,
+				7CF73BCC2BFBCEBF008AB278 /* Keychain.swift in Sources */,
+				7CF73BD22BFBCEBF008AB278 /* UserView.swift in Sources */,
+				7CF73BCD2BFBCEBF008AB278 /* AssignmentView.swift in Sources */,
+				7CF73BD42BFBCEBF008AB278 /* APIManager.swift in Sources */,
+				7CF73BC82BFBCEBF008AB278 /* StudentScheduleCollection.swift in Sources */,
+				7CF73BC22BFBCEBF008AB278 /* Assignment.swift in Sources */,
+				7CF73BCF2BFBCEBF008AB278 /* IndividualAssignmentView.swift in Sources */,
+				7CF73BD02BFBCEBF008AB278 /* ScheduleView.swift in Sources */,
+				7CF73BD12BFBCEBF008AB278 /* TokenView.swift in Sources */,
+				7CF73BCA2BFBCEBF008AB278 /* OAuth2.swift in Sources */,
+				7CF73BC52BFBCEBF008AB278 /* OfferingType.swift in Sources */,
+				7CF73BC42BFBCEBF008AB278 /* HomeLanguageRead.swift in Sources */,
+				7CF73BC32BFBCEBF008AB278 /* AssignmentCollection.swift in Sources */,
+				7CF73BCE2BFBCEBF008AB278 /* ContentView.swift in Sources */,
+				7CF73BC72BFBCEBF008AB278 /* Schedule.swift in Sources */,
+				7CF73BC92BFBCEBF008AB278 /* User.swift in Sources */,
+				7CF73B9E2BFBCE5D008AB278 /* GrotonAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7CE3EDDE2BBC3C84005F637E /* Debug */ = {
+		7CF73BA82BFBCE60008AB278 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,7 +329,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -340,7 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -360,13 +360,14 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		7CE3EDDF2BBC3C84005F637E /* Release */ = {
+		7CF73BA92BFBCE60008AB278 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +393,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -403,7 +404,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -416,15 +417,16 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7CE3EDE12BBC3C84005F637E /* Debug */ = {
+		7CF73BAB2BFBCE60008AB278 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E76B73EFF2B0E80F772CE197 /* Pods-GrotonApp.debug.xcconfig */;
+			baseConfigurationReference = 029CC335532F340A57E45740 /* Pods-GrotonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,6 +434,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GrotonApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 426GWRQHWF;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GrotonApp/Info.plist;
@@ -440,7 +443,6 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,13 +454,13 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7CE3EDE22BBC3C84005F637E /* Release */ = {
+		7CF73BAC2BFBCE60008AB278 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49C6AEDC09786A24D931DF45 /* Pods-GrotonApp.release.xcconfig */;
+			baseConfigurationReference = EAD6E32CA64E5F12CEE42E45 /* Pods-GrotonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +468,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GrotonApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 426GWRQHWF;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GrotonApp/Info.plist;
@@ -474,7 +477,6 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,32 +488,32 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CE3EDCB2BBC3C83005F637E /* Build configuration list for PBXProject "GrotonApp" */ = {
+		7CF73B952BFBCE5D008AB278 /* Build configuration list for PBXProject "GrotonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CE3EDDE2BBC3C84005F637E /* Debug */,
-				7CE3EDDF2BBC3C84005F637E /* Release */,
+				7CF73BA82BFBCE60008AB278 /* Debug */,
+				7CF73BA92BFBCE60008AB278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CE3EDE02BBC3C84005F637E /* Build configuration list for PBXNativeTarget "GrotonApp" */ = {
+		7CF73BAA2BFBCE60008AB278 /* Build configuration list for PBXNativeTarget "GrotonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CE3EDE12BBC3C84005F637E /* Debug */,
-				7CE3EDE22BBC3C84005F637E /* Release */,
+				7CF73BAB2BFBCE60008AB278 /* Debug */,
+				7CF73BAC2BFBCE60008AB278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7CE3EDC82BBC3C83005F637E /* Project object */;
+	rootObject = 7CF73B922BFBCE5D008AB278 /* Project object */;
 }
