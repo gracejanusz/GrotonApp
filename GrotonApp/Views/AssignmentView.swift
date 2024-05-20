@@ -19,7 +19,7 @@ struct AssignmentView: View {
             Color.darkRed
                 .ignoresSafeArea()
             
-            assignmentview
+            assignmentView
                 .padding(.top, 20)
         }
         .onAppear {
@@ -27,56 +27,27 @@ struct AssignmentView: View {
         }
     }
     
-    private var assignmentview: some View {
+    private var assignmentView: some View {
         VStack {
-            HStack {
-                Button(action: {
-                    selectedDate = Calendar.current.date(byAdding: .day, value: -1, to: selectedDate) ?? selectedDate
-                    fetchAssignments(for: selectedDate)
-                }) {
-                    Image(systemName: "arrow.left")
-                        .foregroundColor(.white)
-                        .font(.title)
-                }
-                
-                let weekday = formattedDate(selectedDate, format: "EEEE")
-                let abbreviatedDate = formattedDate(selectedDate, format: "MMM d")
-                
-                Text("\(weekday) \(abbreviatedDate)")
-                    .bold()
-                    .foregroundColor(.white)
-                    .font(.headline)
-                    .frame(maxWidth: .infinity)
-                    .background(Color.clear)
-                
-                Spacer()
-                
-                Button(action: {
-                    selectedDate = Calendar.current.date(byAdding: .day, value: 1, to: selectedDate) ?? selectedDate
-                    fetchAssignments(for: selectedDate)
-                }) {
-                    Image(systemName: "arrow.right")
-                        .foregroundColor(.white)
-                        .font(.title)
-                }
-            }
             
             if let assignment = assignment {
-                // Display assignments
-                ForEach(assignment.value) { item in
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text(item.short_description ?? "Unnamed Assignment")
-                            .font(.headline)
-                            .foregroundColor(.primary)
+                ForEach(assignment) { item in
+                    NavigationLink(destination: IndividualAssignmentView(assignment: item)) {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(item.short_description ?? "Unnamed Assignment")
+                                .font(.headline)
+                                .foregroundColor(.primary)
+                                .underline()
+                            Text(item.section_name ?? "")
+                                .font(.body)
+                                .foregroundColor(.secondary)
+                                .padding()
+                                .background(item.missing ? Color(red: 1.0, green: 0.9, blue: 0.9) : Color.white)
+                                .padding(.vertical, 4)
+                        }
                     }
-                    .padding()
-                    .background(Color.white)
-                    .cornerRadius(8)
-                    .padding(.vertical, 4)
                 }
-
-            } else if let error = error {
-                // Display error
+            }else if let error = error{
                 HStack {
                     Image(systemName: "exclamationmark.octagon.fill")
                         .foregroundColor(.red)
@@ -109,7 +80,6 @@ struct AssignmentView: View {
             self.error = error
         }
     }
-
 
     private func formattedDate(_ date: Date, format: String) -> String {
         let dateFormatter = DateFormatter()

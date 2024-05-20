@@ -75,14 +75,18 @@ struct ScheduleView: View {
                             Text("Room \(item.room_number ?? "Unnamed Room")")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
+                                .opacity(item.room_number != nil ? 1 : 0) // Conditionally show room number
                             
-                            Text("Teacher: \(item.faculty_lastname ?? "Unknown Teacher")")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
+                            if let teacher = item.faculty_lastname {
+                                Text("Teacher: \(teacher)")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                            }
                         }
                         .padding()
                         .background(Color.white)
                     }
+
                 }
             } else if error != nil {
                 HStack{
