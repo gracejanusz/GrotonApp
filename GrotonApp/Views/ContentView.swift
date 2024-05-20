@@ -22,6 +22,8 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 50)
             
+            Spacer()
+            
             if (apiManager.authorized) {
                 if user == nil {
                     if error == nil {
@@ -38,7 +40,7 @@ struct ContentView: View {
                             }
                     }else{
                         //show error visually
-                        HStack{
+                        HStack {
                             Image(systemName: "exclamationmark.octagon.fill").foregroundColor(.red)
                             Text(String(describing: error))
                         }
@@ -47,27 +49,20 @@ struct ContentView: View {
                 } else {
                     NavigationStack {
                         VStack {
-                            NavigationLink(value: "schedule", label: {
+                            NavigationLink(destination: ScheduleView(user: user!)) {
                                 Text("Open Schedule")
                                     .foregroundColor(.white)
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color.maroon)
                                     .cornerRadius(8)
-                            })
+                            }
                             
-                            // Button to navigate to AssignmentView
-                            NavigationLink(value: "assignments", label: {
+                            NavigationLink(destination: AssignmentView(user: user!)) {
                                 Text("Assignment Center")
                                     .foregroundColor(.white)
                                     .padding()
-                                    .background(Color.blue)
+                                    .background(Color.maroon)
                                     .cornerRadius(8)
-                            })
-                        }.navigationDestination(for: String.self) {key in
-                            if (key == "schedule") {
-                                ScheduleView(user: user!)
-                            } else if (key == "assignments") {
-                                AssignmentView(user: user!)
                             }
                         }
                     }
