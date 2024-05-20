@@ -72,12 +72,12 @@ struct ScheduleView: View {
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                             
-                            Text("Room \(item.room_number ?? "Unnamed Room")")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                                .opacity(item.room_number != nil ? 1 : 0) // Conditionally show room number
-                            
-                            if let teacher = item.faculty_lastname {
+                            if(item.room_number !=nil || item.room_number !=""){
+                                Text("Room \(item.room_number ?? "Unnamed Room")")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                            }
+                            if (item.faculty_lastname != nil || item.faculty_lastname != "") {
                                 Text("Teacher: \(teacher)")
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
