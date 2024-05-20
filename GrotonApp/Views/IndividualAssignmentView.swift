@@ -20,8 +20,7 @@ struct IndividualAssignmentView: View {
                 .padding(.top, 20)
         }
     }
-        private var individualAssignmentView: some View{
-            
+    private var individualAssignmentView: some View{
             VStack(alignment: .leading, spacing: 8) {
                 Text(assignment.short_description ?? "Unnamed Assignment")
                     .font(.headline)
@@ -34,14 +33,24 @@ struct IndividualAssignmentView: View {
                     .foregroundColor(.secondary)
                 Text(assignment.date_due ?? "")
                     .font(.body)
-                    .foregroundColor(.secondary) 
+                    .foregroundColor(.secondary)
             }
-                    .padding()
-                    .background(Color.white)
-                    .cornerRadius(8)
-                    .padding(.vertical, 4)
+            .padding()
+            .background(Color.white)
+            .cornerRadius(8)
+            .padding(.vertical, 4)
+            .navigationBarBackButtonHidden(true)
+            .navigationBarItems(leading: backButton)
+        }
+        
+        private var backButton: some View {
+            Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }) {
+                Image(systemName: "arrow.left")
+                    .foregroundColor(.white)
+                    .font(.title)
             }
+            .buttonStyle(PlainButtonStyle())
+        }
     }
-
-
-
