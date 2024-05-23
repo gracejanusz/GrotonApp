@@ -7,7 +7,7 @@
 //
 import Foundation
 
-struct Assignment: Codable, Identifiable {
+struct Assignment: Codable, Identifiable, Hashable {
     let id = UUID()
         var section_name: String?
         var section_id: Int?

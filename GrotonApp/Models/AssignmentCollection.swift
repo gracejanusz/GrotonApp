@@ -7,7 +7,7 @@
 //
 import Foundation
 
-struct AssignmentCollection: Codable{
+struct AssignmentCollection: Codable, Hashable{
     var count: Int32?
     var next_link: String?
     var value: [Assignment]
