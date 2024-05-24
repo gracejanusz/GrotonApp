@@ -44,7 +44,7 @@ struct ScheduleView: View {
                     .font(.headline)
                     .frame(maxWidth: .infinity)
                     .background(Color.clear)
-                    
+                
                 Spacer()
                 
                 Button(action: {
@@ -53,7 +53,7 @@ struct ScheduleView: View {
                 }) {
                     Image(systemName: "arrow.right")
                         .foregroundColor(.white)
-                        .font(.title) 
+                        .font(.title)
                 }
             }
             .padding(.horizontal)
@@ -72,13 +72,13 @@ struct ScheduleView: View {
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                             
-                            if(item.room_number != nil || item.room_number != ""){
-                                Text("Room \(item.room_number ?? "Unnamed Room")")
+                            if let roomnumber = item.room_number, !roomnumber.isEmpty{
+                                Text("Room \(roomnumber)")
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
                             }
-                            if (item.faculty_lastname != nil || item.faculty_lastname != "") {
-                                Text("Teacher: \(item.faculty_lastname)")
+                            if let facultyLastName = item.faculty_lastname, !facultyLastName.isEmpty {
+                                Text("Teacher: \(facultyLastName)")
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
                             }
@@ -86,7 +86,7 @@ struct ScheduleView: View {
                         .padding()
                         .background(Color.white)
                     }
-
+                    
                 }
             } else if error != nil {
                 HStack{

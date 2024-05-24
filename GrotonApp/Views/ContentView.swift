@@ -4,7 +4,6 @@
 //  Created by Seth Battis on 3/21/24.
 import SwiftUI
 import Keys
-
 struct ContentView: View {
     
     @State private var path = NavigationPath()
@@ -15,14 +14,7 @@ struct ContentView: View {
     @State var error: Error?
     
     var body: some View {
-        VStack {
-            Image("GrotonLogo")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height: 50)
-            
-            Spacer()
-            
+       
             if (apiManager.authorized) {
                 if user == nil {
                     if error == nil {
@@ -48,21 +40,52 @@ struct ContentView: View {
                 } else {
                     NavigationStack {
                         VStack {
+                            Text("myGroton App")
+                                .font(.custom("Times New Roman", size: 50))
+                                .bold()
+                                .foregroundColor(.white)
+                                .padding()
+                                .frame(maxWidth: .infinity)
+                                .background(Color.darkRed)
+                                .cornerRadius(8)
+
+                            EmptyView()
+                                    .frame(height: 30)
+                            
+                            Text("Hi, \(user?.first_name ?? "")")
+                                .font(.custom("Times New Roman", size: 24))
+                                .bold()
+                                .foregroundColor(Color.darkRed)
+                            
                             NavigationLink(destination: ScheduleView(user: user!)) {
-                                Text("Open Schedule")
-                                    .foregroundColor(.white)
-                                    .padding()
-                                    .background(Color.red)
-                                    .cornerRadius(8)
+                                VStack {
+                                    Image("Schedule_image")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(height: 150)
+                                    Text("Open Schedule")
+                                        .foregroundColor(.white)
+                                        .padding()
+                                        .background(Color.darkRed)
+                                        .cornerRadius(8)
+                                }
                             }
+                            .padding()
                             
                             NavigationLink(destination: AssignmentView(user: user!)) {
-                                Text("Assignment Center")
-                                    .foregroundColor(.white)
-                                    .padding()
-                                    .background(Color.red)
-                                    .cornerRadius(8)
+                                VStack {
+                                    Image("Assignment_image")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(height: 150)
+                                    Text("Assignment Center")
+                                        .foregroundColor(.white)
+                                        .padding()
+                                        .background(Color.darkRed)
+                                        .cornerRadius(8)
+                                }
                             }
+                            .padding()
                         }
                     }
                 }
@@ -70,7 +93,7 @@ struct ContentView: View {
                 apiManager.authorizationView(flow: .ClientSecret)
                     .onOpenURL() { url in
                         apiManager.handleRedirect(url, flow: .ClientSecret)
-                    }
+                
             }
         }
     }
