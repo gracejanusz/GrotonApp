@@ -1,6 +1,6 @@
 //
 //  APIManager.swift
-//  GrotonApp
+//  APIManager
 //
 //  Created by Seth Battis on 4/8/24.
 //
@@ -12,10 +12,10 @@ class APIManager: TokenManager {
     private let headers: [(String, String)]
 
     
-    init(authURL: URL, tokenURL: URL, clientID: String, clientSecret: String? = nil, scope: String? = nil, redirectURI: URL, keychainTag: String? = nil, baseURL: URL, headers: [(String, String)] = []) {
+    init(authURL: URL, tokenURL: URL, clientID: String, clientSecret: String? = nil, scope: String? = nil, redirectURI: URL, keychainTag: String? = nil, baseURL: URL, headers: [(String, String)] = [], flow: OAuth2.AuthorizationFlow = .PKCE, authorizeInHeader: Bool = false) {
         self.baseURL = baseURL
         self.headers = headers
-        super.init(authURL: authURL, tokenURL: tokenURL, clientID: clientID, clientSecret: clientSecret, redirectURI: redirectURI)
+        super.init(authURL: authURL, tokenURL: tokenURL, clientID: clientID, clientSecret: clientSecret, redirectURI: redirectURI, flow: flow, authorizeInHeader: authorizeInHeader)
     }
     
     
@@ -36,7 +36,7 @@ class APIManager: TokenManager {
                     let response = try JSONDecoder().decode(ExpectedResponseType.self, from: data!)
                     completionHandler(response, nil)
                 } catch {
-                    completionHandler(nil, APIError.APIResponse(error: "Decoding Error: \(error)\n\n\(String(data: Data(base64Encoded: data!.base64EncodedString())!, encoding: .utf8)!)"))
+                    completionHandler(nil, APIError.Encoding(error: error))
                 }
             }.resume()
         }
